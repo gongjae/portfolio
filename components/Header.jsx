@@ -7,12 +7,13 @@ const Header = () => {
   console.log(userId)
   return (
     <>
-      <nav className="bg-red-900 py-4 px-8">
+      <nav className="bg-black py-10 px-20">
         <div className="flex items-center justify-between container">
           <div className="flex items-center font-bold">
             <Link href="/">
-              <div className="text-lg text-white">Clerk Auth</div>
+              <div className="text-lg text-white">Gongjae's Portfolio</div>
             </Link>
+            <div></div>
           </div>
           <div className="flex items-center font-bold">
             {!userId ? (
@@ -41,22 +42,16 @@ const Header = () => {
                   Repository
                 </Link>
                 <Link
-                  href="/courses"
+                  href="/teamproject"
                   className="text-blue-300 hover:text-white mr-4"
                 >
-                  Courses
-                </Link>
-                <Link
-                  href="/dashboard"
-                  className="text-blue-300 hover:text-white mr-4"
-                >
-                  대시보드
+                  Team Project
                 </Link>
                 <Link
                   href="/profile"
                   className="text-blue-300 hover:text-white mr-4"
                 >
-                  프로필
+                  Profile
                 </Link>
                 <div className="ml-auto">
                   <UserButton afterSignOutUrl="/" />

@@ -3,7 +3,7 @@ import RepoDirs from '@/components/Repo.Dirs'
 import Link from 'next/link'
 import React from 'react'
 
-const username = 'bradtraversy'
+const username = 'gongjae'
 
 const RepoPage = ({ params: { name } }) => {
   return (

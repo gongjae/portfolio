@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { FaCodeBranch, FaEye, FaStar } from 'react-icons/fa'
 
-const username = 'bradtraversy'
+const username = 'gongjae'
 
 async function fetchRepo(name) {
   const url = `https://api.github.com/repos/${username}/${name}`
