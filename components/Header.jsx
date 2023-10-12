@@ -12,7 +12,7 @@ const Header = () => {
           <div className="flex items-center justify-between container">
             <div className="flex items-center font-bold">
               <Link href="/">
-                <div className="text-lg text-white">Gongjae's Portfolio</div>
+                <div className="text-2xl text-white">Gongjae's Portfolio</div>
               </Link>
               <div></div>
             </div>
@@ -20,17 +20,21 @@ const Header = () => {
               {!userId ? (
                 //로그인이 안된 경우
                 <>
+                  <div className="text-lg text-white p-7">
+                    {' '}
+                    로그인 해주세요~
+                  </div>
                   <Link
                     href="/sign-in"
                     className="text-yellow-300 hover:text-white mr-4"
                   >
-                    Sign In
+                    로그인
                   </Link>
                   <Link
                     href="/sign-up"
                     className="text-yellow-300 hover:text-white mr-4"
                   >
-                    Sign UP
+                    회원가입
                   </Link>
                 </>
               ) : (
