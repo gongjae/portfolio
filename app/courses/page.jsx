@@ -2,6 +2,8 @@
 
 import React, { useState, useEffect } from 'react'
 import LoadingPage from '../loading'
+import Courses from '@/components/Coureses'
+import CourseSearch from '@/components/CoursesSearch'
 
 const CoursesPage = () => {
   const [courses, setCourses] = useState([])
