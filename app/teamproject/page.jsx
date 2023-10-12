@@ -24,12 +24,30 @@ const Teamprojectpage = () => {
         되었다.
       </p>
       <h2 className="text-2xl font-bold mb-5">개발 환경</h2>
-      <div className="flex">
+      <div className="flex mb-5">
         <Image src="/css3.jpg" width={130} height={100} alt="CSS" />
         <Image src="/html5.jpg" width={200} height={100} alt="HTML" />
         <Image src="/jscript.jpg" width={200} height={100} alt="Jscript" />
         <Image src="/react.jpg" width={300} height={100} alt="React" />
       </div>
+      <h2 className="text-2xl font-bold mb-3">프로젝트 목표</h2>
+      <p className="mb-5">
+        1. 쇼핑몰 웹사이트를 구성하여 인터넷을 통해 옷을 쉽게 구매할 수 있는
+        쇼핑몰 웹 사이트를 구성한다.
+      </p>
+      <p className="mb-5">
+        2. 장바구니 기능을 통해 저장하였던 상품들을 따로 확인할 수 있는 기능을
+        추가하여 사이트를 구성한다.
+      </p>
+      <p className="mb-5">
+        3. 로그인을 통해 개인 사용자들이 쇼핑몰 사이트를 이용할 수 있게끔 한다.
+      </p>
+      <p className="mb-5">
+        4. 후기 작성 기능을 만들어 옷들의 평점을 확인할 수 있게끔 사이트를
+        구성한다
+      </p>
+      <h2 className="text-2xl font-bold mb-3">WBS</h2>
+      <Image src="/WBS.jpg" width={700} height={100} alt="WBS" />
     </div>
   )
 }
