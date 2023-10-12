@@ -6,10 +6,12 @@ const Teamprojectpage = () => {
     <div className="mb-4 bg-gray-300 p-4 m-4 rounded-lg">
       <h1 className="text-4xl font-bold mb-5">Teamproject(팀프로젝트)</h1>
       <h2 className="text-2xl font-bold mb-5">Team 신화창조</h2>
-      <p className="mb-5"> 강민혁 - 후기 페이지 작성 및 ppt 작성</p>
-      <p className="mb-5"> 김근수 - 장바구니 페이지 구성 및 발표</p>
-      <p className="mb-5"> 이경재 - 로그인 페이지 구성 및 ppt 구성</p>
-      <p className="mb-5"> 이동하 - 쇼핑몰 페이지 구성 및 프로젝트 주제 선정</p>
+      <li className="mb-5"> 강민혁 - 후기 페이지 작성 및 ppt 작성</li>
+      <li className="mb-5"> 김근수 - 장바구니 페이지 구성 및 발표</li>
+      <li className="mb-5"> 이경재 - 로그인 페이지 구성 및 ppt 구성</li>
+      <li className="mb-5">
+        이동하 - 쇼핑몰 페이지 구성 및 프로젝트 주제 선정
+      </li>
       <h2 className="text-2xl font-bold mb-5">프로젝트 소개</h2>
       <p className="mb-5">
         장바구니 기능과 로그인 기능이 있는 쇼핑몰 웹사이트를 구성한다.

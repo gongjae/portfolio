@@ -20,7 +20,7 @@ const Repo = async ({ name }) => {
         <Link href={`https://github.com/${username}/${name}`}></Link>
       </h3>
       <p>{repo.description}</p>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-center items-center">
         <span className="flex items-center gap-1">
           <FaStar /> {repo.stargazers_count}
         </span>
