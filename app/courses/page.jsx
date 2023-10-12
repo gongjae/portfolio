@@ -1,9 +1,7 @@
 'use client'
 
-import Courses from '@/components/Courses'
 import React, { useState, useEffect } from 'react'
 import LoadingPage from '../loading'
-import CourseSearch from '@/components/CourseSearch'
 
 const CoursesPage = () => {
   const [courses, setCourses] = useState([])
