@@ -25,10 +25,10 @@ const Header = () => {
                   About
                 </Link>
                 <Link
-                  href="/repos"
+                  href="/skills"
                   className="text-blue-300 hover:text-white mr-4"
                 >
-                  Repository
+                  Skills
                 </Link>
                 <Link
                   href="/teamproject"
@@ -38,14 +38,11 @@ const Header = () => {
                 </Link>
 
                 <Link
-                  href="/profile"
+                  href="/contact"
                   className="text-blue-300 hover:text-white mr-4"
                 >
-                  Profile
+                  Contact
                 </Link>
-                <div className="ml-auto">
-                  <UserButton afterSignOutUrl="/" />
-                </div>
               </>
             </div>
           </div>
