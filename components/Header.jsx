@@ -31,6 +31,12 @@ const Header = () => {
                   Skills
                 </Link>
                 <Link
+                  href="/contents"
+                  className="text-blue-300 hover:text-white mr-4"
+                >
+                  Contents
+                </Link>
+                <Link
                   href="/teamproject"
                   className="text-blue-300 hover:text-white mr-4"
                 >

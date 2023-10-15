@@ -17,7 +17,7 @@ const AboutPage = () => {
         </p>
         <h2 className="text-2xl font-bold mb-5">활동 이력</h2>
         <li className="font-bold mb-5"> SCP 동아리 부원 활동 중</li>
-
+        <li className="font-bold mb-5"> python-study(웹크롤러 제작)</li>
         <h2 className="text-2xl font-bold mb-5">university</h2>
         <li className="font-bold mb-5">
           {' '}
