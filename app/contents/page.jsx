@@ -11,7 +11,7 @@ const ContactPage = () => {
         </h2>
         <li className="mb-4 text-black rounded-lg hover:text-white mr-4">
           <Link
-            href="https://crud-omega-gules.vercel.app/"
+            href="https://crud-gongjae.vercel.app/"
             className=" font-bold mb-5"
           >
             https://crud-omega-gules.vercel.app/
