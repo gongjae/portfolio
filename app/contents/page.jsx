@@ -14,7 +14,7 @@ const ContactPage = () => {
             href="https://crud-gongjae.vercel.app/"
             className=" font-bold mb-5"
           >
-            https://crud-omega-gules.vercel.app/
+            https://crud-gongjae.vercel.app/
           </Link>
         </li>{' '}
       </div>
