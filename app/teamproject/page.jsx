@@ -1,10 +1,16 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Teamprojectpage = () => {
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-5">Teamproject(팀프로젝트)</h1>
+      <Link
+        href="https://myth-gongjae.vercel.app/"
+        className=" text-4xl font-bold mb-5"
+      >
+        Teamproject(팀프로젝트)
+      </Link>
       <div className="mb-4 bg-gray-300 p-4 m-4 rounded-lg">
         <h2 className="text-2xl font-bold mb-5">Team 신화창조</h2>
         <li className="mb-5"> 강민혁 - 후기 페이지 작성 및 ppt 작성</li>
