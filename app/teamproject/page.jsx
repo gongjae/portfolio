@@ -7,7 +7,7 @@ const Teamprojectpage = () => {
     <div>
       <Link
         href="https://myth-gongjae.vercel.app/"
-        className=" text-4xl font-bold mb-5 text-blue-300 hover:text-black mr-4"
+        className=" text-4xl font-bold mb-5 text-black hover:text-blue-300 mr-4"
       >
         Teamproject(팀프로젝트)
       </Link>
